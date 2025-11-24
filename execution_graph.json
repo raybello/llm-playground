@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "name": "ConstA",
+      "node_id": "const_a",
+      "type": "CONST",
+      "outputs": {
+        "output1": 10
+      },
+      "is_dirty": false,
+      "metrics": {
+        "execution_count": 1,
+        "avg_execution_time": 0.002287149429321289,
+        "error_count": 0
+      }
+    },
+    {
+      "name": "ConstB",
+      "node_id": "const_b",
+      "type": "CONST",
+      "outputs": {
+        "output1": 4
+      },
+      "is_dirty": false,
+      "metrics": {
+        "execution_count": 1,
+        "avg_execution_time": 0.0023679733276367188,
+        "error_count": 0
+      }
+    },
+    {
+      "name": "ConstC",
+      "node_id": "const_c",
+      "type": "CONST",
+      "outputs": {
+        "output1": 3
+      },
+      "is_dirty": false,
+      "metrics": {
+        "execution_count": 1,
+        "avg_execution_time": 0.0024480819702148438,
+        "error_count": 0
+      }
+    },
+    {
+      "name": "ConstD",
+      "node_id": "const_d",
+      "type": "CONST",
+      "outputs": {
+        "output1": 10
+      },
+      "is_dirty": false,
+      "metrics": {
+        "execution_count": 1,
+        "avg_execution_time": 0.0025920867919921875,
+        "error_count": 0
+      }
+    },
+    {
+      "name": "Add1",
+      "node_id": "add_1",
+      "type": "ADD",
+      "outputs": {
+        "output1": 14
+      },
+      "is_dirty": false,
+      "metrics": {
+        "execution_count": 1,
+        "avg_execution_time": 0.06625699996948242,
+        "error_count": 0
+      }
+    },
+    {
+      "name": "Multiply1",
+      "node_id": "mult_1",
+      "type": "MULTIPLY",
+      "outputs": {
+        "output1": 30
+      },
+      "is_dirty": false,
+      "metrics": {
+        "execution_count": 1,
+        "avg_execution_time": 0.0462946891784668,
+        "error_count": 0
+      }
+    },
+    {
+      "name": "Add2",
+      "node_id": "add_2",
+      "type": "ADD",
+      "outputs": {
+        "output1": 44
+      },
+      "is_dirty": false,
+      "metrics": {
+        "execution_count": 1,
+        "avg_execution_time": 0.025860071182250977,
+        "error_count": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "const_a",
+      "to": "add_1"
+    },
+    {
+      "from": "const_b",
+      "to": "add_1"
+    },
+    {
+      "from": "const_c",
+      "to": "mult_1"
+    },
+    {
+      "from": "const_d",
+      "to": "mult_1"
+    },
+    {
+      "from": "add_1",
+      "to": "add_2"
+    },
+    {
+      "from": "mult_1",
+      "to": "add_2"
+    }
+  ]
+}
