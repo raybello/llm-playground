@@ -10,7 +10,7 @@
       "is_dirty": false,
       "metrics": {
         "execution_count": 1,
-        "avg_execution_time": 0.002287149429321289,
+        "avg_execution_time": 0.0013170242309570312,
         "error_count": 0
       }
     },
@@ -24,7 +24,7 @@
       "is_dirty": false,
       "metrics": {
         "execution_count": 1,
-        "avg_execution_time": 0.0023679733276367188,
+        "avg_execution_time": 0.001984834671020508,
         "error_count": 0
       }
     },
@@ -38,7 +38,7 @@
       "is_dirty": false,
       "metrics": {
         "execution_count": 1,
-        "avg_execution_time": 0.0024480819702148438,
+        "avg_execution_time": 0.0019578933715820312,
         "error_count": 0
       }
     },
@@ -52,7 +52,7 @@
       "is_dirty": false,
       "metrics": {
         "execution_count": 1,
-        "avg_execution_time": 0.0025920867919921875,
+        "avg_execution_time": 0.0020630359649658203,
         "error_count": 0
       }
     },
@@ -66,7 +66,7 @@
       "is_dirty": false,
       "metrics": {
         "execution_count": 1,
-        "avg_execution_time": 0.06625699996948242,
+        "avg_execution_time": 0.06621527671813965,
         "error_count": 0
       }
     },
@@ -80,7 +80,7 @@
       "is_dirty": false,
       "metrics": {
         "execution_count": 1,
-        "avg_execution_time": 0.0462946891784668,
+        "avg_execution_time": 0.06634306907653809,
         "error_count": 0
       }
     },
@@ -94,7 +94,7 @@
       "is_dirty": false,
       "metrics": {
         "execution_count": 1,
-        "avg_execution_time": 0.025860071182250977,
+        "avg_execution_time": 0.011678934097290039,
         "error_count": 0
       }
     }
