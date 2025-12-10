@@ -17,3 +17,9 @@ A visual, node-based workflow editor built with [DearPyGui](https://github.com/h
 - **Theming** and modern dark interface with rounded UI elements
 - **Status indicators** with execution feedback
 
+---
+## Releasing new versions
+``` bash
+git tag -a v[version] -F release_notes.md
+git push origin v[version]
+```
