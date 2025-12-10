@@ -15,8 +15,6 @@ console = Console()
 # ============================================================================
 # Custom Types
 # ============================================================================
-
-
 class LongString(str):
     """
     Marker class to indicate a string field should use multiline input.
@@ -24,7 +22,6 @@ class LongString(str):
     This allows the node inspector to differentiate between single-line
     and multi-line text input fields in the UI.
     """
-
     pass
 
 
