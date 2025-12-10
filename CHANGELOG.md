@@ -1,5 +1,19 @@
 # Changelog
 
+
+## [unreleased] - 2025-12-09
+
+### Added
+- Adding missing py modules dearpygui & rich to gh-action 
+- Fixed MacOS executable segfault
+
+
+### Changed
+
+### Fixed
+
+### Removed
+
 ## [1.0.11] - 2025-12-09
 
 ### Added
